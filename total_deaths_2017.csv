@@ -1,0 +1,6 @@
+measure,location,sex,age,cause,metric,year,val
+Deaths,Global,Both,All ages,Cardiovascular diseases,Number,2017,17695752.41
+Deaths,Global,Both,All ages,Total cancers,Number,2017,9481040.356
+Deaths,Global,Both,All ages,Injuries,Number,2017,4324152.551
+Deaths,Global,Both,All ages,Respiratory infections and tuberculosis,Number,2017,3732375.454
+Deaths,Global,Both,All ages,Infectious and parasitic diseases,Number,2017,3436944.89

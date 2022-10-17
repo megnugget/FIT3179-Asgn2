@@ -1,0 +1,21 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Number,2017,1315428.292,1411675.867,1219186.02
+Deaths,Global,Male,All ages,Stomach cancer,Number,2017,593491.6755,650869.208,539403.0336
+Deaths,Global,Male,All ages,Colon and rectum cancer,Number,2017,552189.6798,584970.9122,516511.6491
+Deaths,Global,Male,All ages,Prostate cancer,Number,2017,454493.7173,557347.3031,390596.7873
+Deaths,Global,Male,All ages,Esophageal cancer,Number,2017,342739.9673,380369.4219,301578.6975
+Deaths,Global,Male,All ages,Liver cancer,Number,2017,317434.0841,345008.5111,289732.06
+Deaths,Global,Male,All ages,Pancreatic cancer,Number,2017,257437.34,272941.1244,241949.5545
+Deaths,Global,Male,All ages,Leukemia,Number,2017,182408.4502,199517.5145,159064.6054
+Deaths,Global,Male,All ages,Bladder cancer,Number,2017,159391.0995,167367.7559,149105.3069
+Deaths,Global,Male,All ages,Non-Hodgkin lymphoma,Number,2017,138803.1134,146091.6087,130729.184
+Deaths,Global,Female,All ages,Breast cancer,Number,2017,654827.4211,695646.9144,608793.254
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Number,2017,605467.8779,652705.4268,547553.2164
+Deaths,Global,Female,All ages,Colon and rectum cancer,Number,2017,457760.545,487296.8605,410883.8775
+Deaths,Global,Female,All ages,Stomach cancer,Number,2017,331880.0357,360711.5189,298845.5123
+Deaths,Global,Female,All ages,Cervical cancer,Number,2017,273183.4455,300961.7083,235181.685
+Deaths,Global,Female,All ages,Pancreatic cancer,Number,2017,232549.0085,248202.1538,210503.1997
+Deaths,Global,Female,All ages,Ovarian cancer,Number,2017,185927.4213,202868.681,166002.91
+Deaths,Global,Female,All ages,Liver cancer,Number,2017,143350.1298,155725.6853,129620.0461
+Deaths,Global,Female,All ages,Leukemia,Number,2017,141504.5808,151215.0997,129220.2266
+Deaths,Global,Female,All ages,Esophageal cancer,Number,2017,125037.0774,138169.4059,107552.0146

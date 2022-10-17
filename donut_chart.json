@@ -1,0 +1,19 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 450,
+  "title": {"text":"NUMBER OF DEATHS IN THE WORLD (2017)","fontSize":17},
+  "data": {
+      "url" : "https://raw.githubusercontent.com/megnugget/FIT3179/main/Assignment2/total_deaths_2017.csv"
+    }, 
+   
+  "mark": {"type": "arc", "innerRadius": 80,"outerRadius":150,"stroke": "#ffffff","strokeWidth": 4},
+  
+  "encoding": {
+    "theta": {"field": "val", "type": "quantitative"},
+    "color": {"field": "cause", "type": "nominal","scale":{"range":["#ab8eaa","#bad0e7","#b7cad9","#ccbed5","#a9a2c1"]},"legend":{"title":"CAUSE OF DEATH","direction": "vertical","symbolType":"square","orient": "top-left","labelLimit":200,"labelFontSize":10,"labelFontWeight":"normal","titleFontSize":12,"titleFontWeight":800}},
+     "tooltip": [
+          {"field": "val", "type": "nominal", "title": "Number of Deaths","format":".0f"},
+          {"field": "cause", "type": "nominal", "title": "Cause"}]
+  }
+}

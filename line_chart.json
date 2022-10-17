@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 420,
+  "width": 642,
+  "title": {"text":"DEATHS FROM CANCER BY AGE GROUP OVER TIME (1990-2017)","fontSize":17},
+  "data": {"url": "https://raw.githubusercontent.com/megnugget/FIT3179/main/Assignment2/death_by_agegroup.csv"},
+  "transform": [
+    {"fold": ["Age: 70+ years", "Age: 50-69 years", "Age: 15-49 years","Age: Under 14"]}],
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {"timeUnit": "year", "field": "Year","title": "YEAR","axis":{"grid":false}},
+    "y": {"field": "value", "type": "quantitative","title": "NUMBER OF DEATHS","axis":{"grid":false}},
+    "color": {"field": "key", "type": "nominal","scale":{"range":["#8f9c82","#b7cad9","#ab8eaa","#dea4bb"]},"legend":{"title":"AGE GROUPS","orient": "top-left","direction":"vertical","symbolType":"square"}},
+    "tooltip": [
+        {"field": "key", "type": "nominal", "title": "Group"},
+        {"field": "value", "type": "nominal", "title": "Number of Deaths"}]
+  }
+}

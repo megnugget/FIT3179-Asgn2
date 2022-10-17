@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <script src="vega_lite_vis.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    
+
+    <title>CANCER - A Widespread Disease</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+   
+</head>
+<body>
+    <div id="header">
+        <h1>CANCER  </h1>
+        <p>- A WIDESPREAD DISEASE -</p>
+           
+    </div>  
+
+    <div class="pure-g" id="grid0">
+        <div class="pure-u" id="desc">
+            <h2 id="header0">
+                CANCER  <span style="font-size:30px ;">[kan-ser]</span><br>
+                <span style="font-size:30px ;"><i>noun </i></span>
+            </h2>
+            <p id="header-pronoun">
+
+        "A serious disease that is caused when cells in the body grow in a way that is <strong>uncontrolled</strong>  and not normal, <strong>killing normal cells </strong>and often causing death"&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span style="font-size: 20px;">- Cambridge Dictionary</span>
+
+            </p>
+
+        </div>
+
+    </div>
+    
+    <div class="pure-g" id="grid1">
+        <div class="pure-u-1-2" id="vis1">
+            <div id = "donut_chart"></div>
+            
+        
+        </div>
+
+        <div class="pure-u-1-2" id="text_grid1">
+
+            <h2 id = "text1_header">
+                MAIN CAUSE OF DEATH
+            </h2>
+
+            <p id="text1">
+                <strong>Cancer</strong> is one of the world's largest killer. According to <i>The Global Burden of Disease</i>, the number of deaths by cancer in 2017 ranks <strong> second </strong> after cardiovascular diseases.
+                
+            </p>
+        
+        </div>
+        
+    </div>
+
+    <div class="pure-g" id="grid2">
+        <div class="pure-u-1-2" id="text_grid2">
+            <h2 id = "text2_header">
+               HOW MANY PEOPLE HAVE CANCER ?
+            </h2>
+
+            <p id="text2">              
+               Overall, we can see that the prevalence of cancer is <strong>higher in more developed countries</strong> such as <strong>USA, Canada, </strong>and <strong>Australia</strong> . This is because the population is associated with more affluent lifestyles that leads to cancer such as smoking and alcohol consumption.
+               
+            </p>
+        
+        </div>
+
+        <div class="pure-u-1-2" id="vis2">
+            <div class="pure-u-1-2" id="vis2">
+                <div id = "choropleth_map"></div>
+            
+            </div>
+        
+        </div>
+
+
+    </div>
+
+    <div class="pure-g" id="grid3">
+        <div class="pure-u-1-2" id="vis3">
+            <div id = "line_chart"></div>
+        
+        </div>
+
+        <div class="pure-u-1-2" id="text_grid3">
+            <h2 id = "text3_header">
+                AGE AND CANCER
+            </h2>
+            <p id="text3">
+                
+                <strong>Mortality rates are strongly related to age.</strong> Elderlies with the <strong>age 70 and above</strong> has the <strong>highest number of deaths</strong>. This is due to the possibility of long-term cell damage. As we become older, this damage can build up and result in cancer.
+                
+            </p>
+        
+        </div>
+        
+    </div>
+
+    <div class="pure-g" id="grid4">
+        <div class="pure-u-1-2" id="text_grid4">
+            <h2 id = "text4_header">
+                MORTALITY RATE BY TYPE OF CANCER
+            </h2>
+            <p id="text4">     
+                <strong>Tracheal, bronchus, and lung cancer </strong> are the  <strong>deadliest</strong> cancers worldwide, accounting for <strong>1.9 million deaths</strong> in 2017. The <strong>second</strong>  most deadly form of cancer is <strong>colorectum </strong>cancer, followed by <strong>stomach</strong> and <strong>breast</strong> cancer.
+            </p>
+        
+        </div>
+
+        <div class="pure-u-1-2" id="vis4">
+            <div class="pure-u-1-2" id="vis4">
+                <div id = "sankey_diagram"></div>
+            
+            </div>
+        
+        </div>
+
+
+    </div>
+
+
+    
+</body>
+<footer>
+    <div class="pure-g" id="footer">
+        <div class="pure-u" > 
+            <p id = "footer_text">Visualization by Chua Megan<br>
+                Data source available at <a href="https://vizhub.healthdata.org/gbd-results/">Global Burden of Disease Study 2019 (GBD 2019) Results</a>
+            </p>
+        </div>
+        
+
+    </div>
+
+</footer>
+
+
+           
+
+
+
+    
+  
+</html>
